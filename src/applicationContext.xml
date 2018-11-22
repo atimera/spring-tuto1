@@ -14,7 +14,7 @@
     <!-- Define your beans here -->
     
     <!-- Define the dependency -->
-    <bean id="myFortuneService" class="com.amdiatou.springdemo.HappyFortuneService"></bean> 
+    <bean id="myFortuneService" class="com.amdiatou.springdemo.RandomFortuneService"></bean> 
     
     <bean id="myCoach" class="com.amdiatou.springdemo.TrackCoach" >
     	<!-- set up the constructor injection -->
